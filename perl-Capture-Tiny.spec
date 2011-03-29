@@ -9,7 +9,7 @@ Summary:	Capture::Tiny - Capture STDOUT and STDERR from Perl, XS or external pro
 #Summary(pl.UTF-8):
 Name:		perl-Capture-Tiny
 Version:	0.10
-Release:	1
+Release:	2
 License:	apache
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/D/DA/DAGOLDEN/Capture-Tiny-%{version}.tar.gz
@@ -65,6 +65,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
+%dir %{perl_vendorlib}/Capture
 %{perl_vendorlib}/Capture/*.pm
 %{_mandir}/man3/*
 %{_examplesdir}/%{name}-%{version}
