@@ -8,12 +8,12 @@
 Summary:	Capture::Tiny - Capture STDOUT and STDERR from Perl, XS or external programs
 #Summary(pl.UTF-8):
 Name:		perl-Capture-Tiny
-Version:	0.11
+Version:	0.15
 Release:	1
 License:	apache
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/D/DA/DAGOLDEN/Capture-Tiny-%{version}.tar.gz
-# Source0-md5:	afbd9be69e4691ba8316545d216abdc8
+# Source0-md5:	7e9a7b8f0ad8134759599a78585d26a6
 # generic URL, check or change before uncommenting
 #URL:		http://search.cpan.org/dist/Capture-Tiny/
 BuildRequires:	perl-devel >= 1:5.8.0
@@ -35,8 +35,6 @@ one.
 This module was heavily inspired by IO::CaptureOutput, which provides
 similar functionality without the ability to tee output and with more
 complicated code and API.
-
-
 
 # %description -l pl.UTF-8 # TODO
 
