@@ -1,19 +1,19 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
+
 %define		pdir	Capture
 %define		pnam	Tiny
 %include	/usr/lib/rpm/macros.perl
 Summary:	Capture::Tiny - Capture STDOUT and STDERR from Perl, XS or external programs
 Summary(pl.UTF-8):	Capture::Tiny - przechwytywanie STDOUT i STDERR z Perla, XS lub programów zewnętrznych
 Name:		perl-Capture-Tiny
-Version:	0.22
+Version:	0.27
 Release:	1
 License:	Apache v2.0
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/D/DA/DAGOLDEN/Capture-Tiny-%{version}.tar.gz
-# Source0-md5:	f270ee3682aabf10747592f6c05ef7ba
+# Source0-md5:	63ee233f1dfaa75c5233839407b87ae3
 URL:		http://search.cpan.org/dist/Capture-Tiny/
 BuildRequires:	perl-ExtUtils-MakeMaker >= 6.30
 BuildRequires:	perl-devel >= 1:5.8.0
