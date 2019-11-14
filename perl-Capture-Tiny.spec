@@ -8,12 +8,12 @@
 Summary:	Capture::Tiny - Capture STDOUT and STDERR from Perl, XS or external programs
 Summary(pl.UTF-8):	Capture::Tiny - przechwytywanie STDOUT i STDERR z Perla, XS lub programów zewnętrznych
 Name:		perl-Capture-Tiny
-Version:	0.46
+Version:	0.48
 Release:	1
 License:	Apache v2.0
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/D/DA/DAGOLDEN/Capture-Tiny-%{version}.tar.gz
-# Source0-md5:	d718af07729d26a793949ca6ba2580a7
+# Source0-md5:	f5d24083ad270f8326dd659dd83eeb54
 URL:		http://search.cpan.org/dist/Capture-Tiny/
 BuildRequires:	perl-ExtUtils-MakeMaker >= 6.30
 BuildRequires:	perl-devel >= 1:5.8.0
