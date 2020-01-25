@@ -4,7 +4,6 @@
 
 %define		pdir	Capture
 %define		pnam	Tiny
-%include	/usr/lib/rpm/macros.perl
 Summary:	Capture::Tiny - Capture STDOUT and STDERR from Perl, XS or external programs
 Summary(pl.UTF-8):	Capture::Tiny - przechwytywanie STDOUT i STDERR z Perla, XS lub programów zewnętrznych
 Name:		perl-Capture-Tiny
