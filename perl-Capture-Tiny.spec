@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_without	tests		# do not perform "make test"
+%bcond_without	tests	# unit tests
 
 %define		pdir	Capture
 %define		pnam	Tiny
@@ -13,10 +13,11 @@ License:	Apache v2.0
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/D/DA/DAGOLDEN/Capture-Tiny-%{version}.tar.gz
 # Source0-md5:	f5d24083ad270f8326dd659dd83eeb54
-URL:		http://search.cpan.org/dist/Capture-Tiny/
+URL:		https://metacpan.org/release/Capture-Tiny
 BuildRequires:	perl-ExtUtils-MakeMaker >= 6.30
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 %if %{with tests}
 BuildRequires:	perl-Test-Simple >= 0.62
 %endif
